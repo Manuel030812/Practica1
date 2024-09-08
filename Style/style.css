@@ -1,0 +1,31 @@
+.titulo {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+article{
+background-color: darkgray;
+  width: 500px; /* Ancho del cuadro */
+  height: 500px; /* Altura del cuadro */
+}
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* responsivo para telefonos */
+@media (max-width: 600px) {
+    .cuadro {
+        width: 90%; 
+        height: auto; 
+    }
+    .titulo {
+        text-align: center;
+        margin-top: 20px;
+        background-color: aqua;
+    }
+}
+
